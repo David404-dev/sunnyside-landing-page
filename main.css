@@ -194,7 +194,7 @@ nav {
 
 /* Start graphic design section */
 .graphic-design-section {
-  background-image: url("images/mobile/image-graphic-design.jpg");
+  background-image: url("./images/mobile/image-graphic-design.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -223,7 +223,7 @@ nav {
 
 /* Start photography section */
 .photography-section {
-  background-image: url("images/mobile/image-photography.jpg");
+  background-image: url("./images/mobile/image-photography.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -349,7 +349,7 @@ footer {
 /* Start media queries */
 @media only screen and (min-width: 650px) {
   .hero-section {
-    background-image: url("images/desktop/image-header.jpg");
+    background-image: url("./images/desktop/image-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -450,11 +450,11 @@ footer {
     width: 50%;
   }
   .graphic-design-section {
-    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-image: url(./images/desktop/image-graphic-design.jpg);
   }
 
   .photography-section {
-    background-image: url("/images/desktop/image-photography.jpg");
+    background-image: url("./images/desktop/image-photography.jpg");
     height: 60vh;
   }
   .graphic-design-info {
